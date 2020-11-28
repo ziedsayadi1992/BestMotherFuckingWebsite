@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&display=swap');
+
+body{
+    color: #454545;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+header p{
+    margin-top: -1em;
+}
+main .wrong{
+    font-weight: 600;
+    color: #c0392b;
+    text-decoration: underline;
+}
+main .motherfucker{
+    color: #730000;
+}
+main .light_blue_link{
+    color: #07a;
+}
+main .unreadble{
+    font-size: .4em;
+}
+main .shitty_blue{
+    color: #00e;
+    cursor: not-allowed;
+}
+main .violetish_color{
+    color: #551a8b;
+    cursor: not-allowed;
+}
+main code{
+    display: block;
+    margin-top: 1em;
+}
+main .rainbow_infinit_color{
+    animation: rainbow 2s infinite;
+}
+@keyframes rainbow{
+    0%{
+        color: #4287f5;
+    }
+    10%{
+        color: #42f5e9;
+    }
+    20%{
+        color: #42f560;
+    }
+    30%{
+        color: #9cf542;
+    }
+    40%{
+        color: #f2f542;
+    }
+    50%{
+        color: #f5a142;
+    }
+    60%{
+        color: #f56042;
+    }
+    70%{
+        color: #f54242;
+    }
+    80%{
+        color: #9cf542;
+    }
+    90%{
+        color: #f5427e;
+    }
+    100%{
+        color: #f542e9;
+    }
+}
+main .square_1{
+    position: relative;
+}
+main .square_1::before{
+    content: "";
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    top: 2px;
+    left: 2px;
+    background-color: #444;
+}
+main .square_2{
+    position: relative;
+}
+main .square_2::before{
+    content: "";
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    top: 2px;
+    left: 2px;
+    background-color: #454545;
+}
+main .cat_div{
+    display: flex;
+}
+main .cat{
+    flex: 0.3;
+}
+main .cat .cat_img{
+    max-width: 300px;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    margin-right: 2em;
+}
+main .cat_paragraph{
+    flex: 0.7;
+    margin-top: -0.4em;
+}
+main .cat_title{
+    font-size: x-small;
+    margin-left: 0.5em;
+    margin-top: -0.5em;
+}
+
+blockquote{
+   margin-top: 3em;
+   margin-bottom: 2em;
+   position: relative; 
+}
+blockquote p:last-child{
+    font-size: x-small;
+    font-style: italic;
+    margin-top: -0.7em;
+    margin-left: 0.5em;
+}
+blockquote .quot::before{
+content: open-quote;
+font-family: 'Times New Roman', Times, serif;
+font-size: 2.2em;
+width: 1.2em;
+font-weight: bold;
+color: #666;
+position: absolute;
+top: -21px;
+left: -38px;
+}
+
+main .k_logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+main .cat_div{
+    flex-direction: column;
+}
+main .cat{
+    width: 100%;
+}
+main .cat .cat_img{
+    max-width: 100%;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+}
